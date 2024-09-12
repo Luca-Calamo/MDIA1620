@@ -1,6 +1,6 @@
 # MDIA1620
-1 test 
-**3 aha moments**
+1 test. <br>
+ **3 aha moments**
 1. figuring out cd and dir. I was quite confused at first but after figuring it out it was satisfying
 2. using ol and then li in side of the ol/ learning how to make a list in markdown
 3.  using **bolds** and *italics* 
