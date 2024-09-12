@@ -5,7 +5,7 @@
 2. using ol and then li in side of the ol/ learning how to make a list in markdown
 3.  using **bolds** and *italics* 
 **2 things that are unclear**
-1. how to make something bold and italicize
+1. how to make something bold and italicize ***figured it out :)***
 2. when to use html vs markdown
 
 **1 word for how your feeling**
