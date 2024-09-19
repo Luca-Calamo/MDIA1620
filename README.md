@@ -7,7 +7,6 @@
 **2 things that are unclear**
 1. how to make something bold and italicize
 2. when to use html vs markdown
-
 **1 word for how your feeling**
 - anxious (exited and nervious not just anxious lol)
 
@@ -16,3 +15,4 @@ Luca Calamo.
 **Learning from 3-2-1**  
 I learned how to ***bold and italic***  
 I also realized if I use any html code while using markdown it will get confused and stop using markdown ex. my link to the picture will stay a link, double space wont be a line break, and bold and italics wont appear unless in html.
+Add something
