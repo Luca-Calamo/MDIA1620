@@ -15,6 +15,7 @@ Luca Calamo.
 I learned how to ***bold and italic***  
 I also realized if I use any html code while using markdown it will get confused and stop using markdown ex. my link to the picture will stay a link, double space wont be a line break, and bold and italics wont appear unless in html.
 Add something
+
 ***3 aha moments***
 
 1. Getting git commit to not give me the aunthentication error
