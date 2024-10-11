@@ -19,7 +19,7 @@ let horseOne = [horseName, horseAge, isHorseInStable, horsenickname];
 let horseTwo = ["Suprme Leader", 2000, false, "Mr. President"];
 let areHorsesInside = [isHorseInStable, false, true];
 let horseNames = [horseName, "Doran", "Mikeypoo"];
-let horseStatus = `All ${horseNames.length} horses are currently outside frolicking at a Diddy party`;
+let horseStatus = `All ${horseNames.length} horses are currently outside frolicking at a Diddy party🎉🎉`;
 console.log(horseStatus);
 
 console.log(horseStatus);
