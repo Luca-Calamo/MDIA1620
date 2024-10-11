@@ -33,3 +33,21 @@ Add something
 ***1 word to describe how I feel***
 
 1. Nervous 
+
+Lesson 6
+
+***3 things I found confusing***
+
+1. I'm having trouble fully understanding the git system, hence me loosing my lesson 5
+
+2. I still have a tough time reading the error message so when my code dosen't work I'm not always sure why
+
+3. I dont understand what ${} means. I can understand what it does but idk why its doing that or even what its called. I think i was trying to fix something during the explanation. ill have to google it later.
+
+***3 things I feel I have a solid grasp on***
+
+1. Im pretty comfortable with remembering the code from the previous classes ex. let, else, else if, if, ect.
+
+2. I feel good about the whole procces of git status, git add, git commit, git push now.
+
+3. I know its not exactly the same but I found arrays kinda easy to understand because they remind me of css a bit. 
