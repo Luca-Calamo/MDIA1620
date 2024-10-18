@@ -17,12 +17,12 @@ console.log(horsenickname);;
 //horse = ["name", age, isInside, horsenickname]
 let horseOne = [horseName, horseAge, isHorseInStable, horsenickname];
 let horseTwo = ["Suprme Leader", 2000, false, "Mr. President"];
-let areHorsesInside = [isHorseInStable, false, true];
+let areHorsesInside = [isHorseInStable, false];
 let horseNames = [horseName, "Doran", "Mikeypoo"];
 let horseStatus = `All ${horseNames.length} horses are currently outside frolicking at a Diddy party🎉🎉`;
-console.log(horseStatus);
+let horseAges = [2000, 13, 72]
 
-console.log(horseStatus);
+console.log(horseAges)
 console.log(horseTwo);
 console.log(horseOne[0] + "'s nickname is " + horseTwo[3]);
 console.log(horseTwo)
@@ -45,5 +45,13 @@ if (isHorseInStable) {
 } else {
    console.log(horseStatus);
 }
+
+console.log(horseNames[2] + " is " + horseAges[2] + " years old!");
+
+function loghorseAges(horse) {
+   console.log(horseNames[horse] + " is " + horseAges[horse] + "!");
+}
+
+loghorseAges(1)
 
 
