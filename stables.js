@@ -18,7 +18,7 @@ console.log(STABLES_MONTHLY_FEE)
 //horse = ["name", age, isInside, horsenickname]
 let horseOne = [horseName, horseAge, isHorseInStable, horsenickname];
 let horseTwo = ["Suprme Leader", 2000, false, "Mr. President"];
-let areHorsesInside = [isHorseInStable, false, true];
+let areHorsesInside = [isHorseInStable, false];
 let horseNames = [horseName, "Doran", "Mikeypoo"];
 let horseStatus = `All ${horseNames.length} horses are currently outside frolicking at a Diddy party🎉🎉`;
 let horseAges = [2000, 13, 75]
@@ -47,6 +47,7 @@ if (isHorseInStable) {
 } else {
    console.log(horseStatus);
 }
+
 
 //LESSON 7 CODE
 
