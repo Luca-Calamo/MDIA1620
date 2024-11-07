@@ -1,4 +1,30 @@
+//constructor
+function Horse(name, nickname, faveSnack, monthlyRent, isInside, age, color) {
+   this.name = name;
+   this.nickname = nickname;
+   this.faveSnack = faveSnack;
+   this.monthlyRent =  monthlyRent;
+   this.isInside = isInside;
+   this.age = age;
+   this.color = color;
+   this.introduction = function intro() {
+      console.log(`This is ${this.name}, their nickname is ${this.nickname}!`);
+   };
 
+   this.rentNotice = function rent(daysUnitlDue) {
+      console.log(`${this.name}'s rent is due in ${daysUnitlDue}, abd is $${this.monthlyRent}! Please pay promply!`)
+   };
+}
+
+let tim = new Horse("tim", "Shortcake", 100, true, 15, "Blue");
+let Mike = new Horse("Mike", "Peter", "Coconut", 100, true, 12, "Red");
+console.log(Mike)
+
+
+
+
+
+/*
 let horseName = "Coolguy" // this is a string, perfer-always use double quotes
 horseName = "Supreme Leader" ;
 let horseAge = 2000;
@@ -75,3 +101,5 @@ function payMe(rent, discount) {
 }
 
 console.log(payMe(500, 100))
+*/
+
