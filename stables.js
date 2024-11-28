@@ -1,27 +1,72 @@
 //constructor
-function Horse(name, nickname, faveSnack, monthlyRent, isInside, age, color) {
-   this.name = name;
-   this.nickname = nickname;
-   this.faveSnack = faveSnack;
-   this.monthlyRent =  monthlyRent;
-   this.isInside = isInside;
-   this.age = age;
-   this.color = color;
-   this.introduction = function intro() {
-      console.log(`This is ${this.name}, their nickname is ${this.nickname}!`);
-   };
+// function Horse(name, nickname, faveSnack, monthlyRent, isInside, age, color) {
+//    this.name = name;
+//    this.nickname = nickname;
+//    this.faveSnack = faveSnack;
+//    this.monthlyRent =  monthlyRent;
+//    this.isInside = isInside;
+//    this.age = age;
+//    this.color = color;
+//    this.introduction = function intro() {
+//       console.log(`This is ${this.name}, their nickname is ${this.nickname}!`);
+//    };
 
-   this.rentNotice = function rent(daysUnitlDue) {
-      console.log(`${this.name}'s rent is due in ${daysUnitlDue}, abd is $${this.monthlyRent}! Please pay promply!`)
-   };
+//    this.rentNotice = function rent(daysUnitlDue) {
+//       console.log(`${this.name}'s rent is due in ${daysUnitlDue}, abd is $${this.monthlyRent}! Please pay promply!`)
+//    };
+// }
+
+// let tim = new Horse("tim", "Shortcake", 100, true, 15, "Blue");
+// let Mike = new Horse("Mike", "Peter", "Coconut", 100, true, 12, "Red");
+// console.log(Mike)
+
+//Week 11//
+
+// /*for (let i = 0; i < 10; i++) {
+//    console.log(i);
+// }
+
+// let treats = ["carrots", "beans", "strawberries"];
+
+// for (let i = 0; i < treats.length; i++) {
+//    console.log("Come to the stables! I have some " + treats[i] + "!");
+
+// }
+//  */
+
+let horses = [
+   {
+      name: "Strawberry",
+      faveTreat: "carrots",
+      isInside: true,
+   },
+   {
+      name: "Beans",
+      faveTreat: "beans",
+      isInside: false,
+   },
+   {
+      name: "Charlie",
+      faveTreat: "strawberries",
+      isInside: true,
+   },
+];
+
+for(let i = 0; i < horses.length; i++) {
+   let horse = horses[i];
+   let horseName = horse["name"];
+   let favorite = horse["faveTreat"];
+   let likesBeans = favorite === "beans";
+   
+
+      if (likesBeans) {
+         return console.log(horseName + " loves beans!");
+      }
+      console.log(horseName + " dosent like Beans, keep checking!");
 }
+//IDK why it keeps printing as undefined. Validator says I have an issue with the let "Line 1, Column 1: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)"
 
-let tim = new Horse("tim", "Shortcake", 100, true, 15, "Blue");
-let Mike = new Horse("Mike", "Peter", "Coconut", 100, true, 12, "Red");
-console.log(Mike)
-
-
-
+//for (let i = 0; i < horses.length; i++)
 
 
 /*
