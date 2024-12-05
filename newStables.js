@@ -136,7 +136,7 @@ const LATE_PAYMENT_FEE = 25;
 let numberOfFreeStalls = 10;
 
 
-function Horse(name, nickname, favoriteTreat, age, monthlyRent, isOutside, faveGame, coatColor, isHungry) {
+function horse(name, nickname, favoriteTreat, age, monthlyRent, isOutside, faveGame, coatColor, isHungry) {
     this.name = name;
     this.nickname = nickname;
     this.favoriteTreat = favoriteTreat;
@@ -156,9 +156,9 @@ function Horse(name, nickname, favoriteTreat, age, monthlyRent, isOutside, faveG
 }
 
 
-const horse1 = new Horse("Mike", "Mikeypoo", "Carrots", 4, 100, true, "Hockey", "black", true);
-const horse2 = new Horse("Harambe", "Monke", "Pizza", 20, 100, false, "Pickle Ball", "brown", false);
-const horse3 = new Horse("Eren", "YEAGER", "Titans", 18, 100, true, "Genocide", "white", true);
+const horse1 = new horse("Mike", "Mikeypoo", "Carrots", 4, 100, true, "Hockey", "black", true);
+const horse2 = new horse("Harambe", "Monke", "Pizza", 20, 100, false, "Pickle Ball", "brown", false);
+const horse3 = new horse("Eren", "YEAGER", "Titans", 18, 100, true, "Genocide", "white", true);
 
 console.log(horse1.introduction());
 console.log(horse1.hobbies());
@@ -249,10 +249,10 @@ if (numberOfFreeStalls < 2) {
 const TOTAL_LATE_FEE_OWED = horse1.monthlyRent + LATE_PAYMENT_FEE;
 
 
-function HorseLateFee(whichHorse) {
+function horseLateFee(whichHorse) {
     console.log(`${horses[whichHorse].name} rent is late. Due to this you will be charged $${TOTAL_LATE_FEE_OWED}`)
 };
-HorseLateFee(3);
+horseLateFee(3);
 
 for (let i = 0; i < horses.length; i++) {
 
@@ -263,10 +263,14 @@ for (let i = 0; i < horses.length; i++) {
 
 }
 
+function grabHorseNickname(horse) {
+    return horses[horse].nickname
+}
 
-  
+console.log(`${horses[1].name}'s nickname is${grabHorseNickname[1]}`)
 
-/
+// let horseNicknames = grabHorseNickname
+
 
 // Create and invoke a function that returns (not logs) the nickname of a chosen horse. Log out
 // the return value outside of the function.
